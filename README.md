@@ -56,3 +56,21 @@ ProseLens includes a unified bootstrapper script that automates installations an
 
 ```bash
 python run.py
+
+
+This script will automatically:
+
+Detect and install frontend Node dependencies (node_modules) if they are missing.
+Compile and bundle Vite assets for production (frontend/dist/).
+Check for classifier weights; if missing, it runs the calibration dataset pipeline (fits the Logistic Regression model and saves parameters).
+Launch the FastAPI server hosted on Uvicorn.
+3. Open in Browser
+Once the startup completes and shows Uvicorn running on http://127.0.0.1:8000, open your web browser to: 👉 http://localhost:8000
+
+🧪 Testing
+The statistical backend is fully covered by tests. Execute unit tests using Python's native test library:
+
+bash
+
+
+python -m unittest backend/test_analyzer.py
