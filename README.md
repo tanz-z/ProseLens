@@ -6,7 +6,7 @@ The user interface implements a stark, modern **Obsidian & Carbon theme** (inspi
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 - **Machine Learning**: Local pre-trained `gpt2` (124M parameters) via Hugging Face `transformers` and **PyTorch** (`torch`).
 - **Statistical Pipeline**: Logistic Regression classifier fitted on admissions essay datasets via **scikit-learn** and **numpy** (saved in `backend/weights.json`).
@@ -16,7 +16,7 @@ The user interface implements a stark, modern **Obsidian & Carbon theme** (inspi
 
 ---
 
-## 🔬 Core Detection & Safeguard Algorithms
+##  Core Detection & Safeguard Algorithms
 
 ### 1. Vectorized Token Probability & Rank Extraction
 Instead of scanning text sequentially in slow loops, ProseLens tokenizes input text and passes it to `gpt2` in vectorized tensor operations:
@@ -38,13 +38,41 @@ ProseLens resolves this by checking grammatical pacing. When `top100_fraction > 
 
 ## 📁 Repository Structure
 
-Project2/ ├── backend/ │ ├── main.py # FastAPI endpoints, asset hosting, and server routing │ ├── analyzer.py # Token perplexity, GLTR ranking, and offset mapping engine │ ├── classifier.py # Logistic Regression loader and ESL mitigation classifier │ ├── test_analyzer.py # Unit test suite for ML and statistical logic │ ├── requirements.txt # Python dependencies │ └── weights.json # Calibrated Logistic coefficients and scaler mean/std values ├── frontend/ │ ├── package.json # Node package manager configurations │ ├── vite.config.ts # Vite bundler configurations │ ├── tsconfig.json # TypeScript specifications │ ├── index.html # HTML root and Google Font loaders │ └── src/ │ ├── main.tsx # React mounting script │ ├── index.css # Dark carbon colors, grid spacing, and watch-face progress styles │ ├── App.tsx # ProseLens splash screen and single-canvas workspace router │ └── components/ │ ├── EssayInput.tsx # Document editor sheet textarea │ ├── OverviewScore.tsx # Score gauge donut ring and verdict panel │ ├── TextVisualizer.tsx # Document visualizer highlight container │ ├── TokenDetails.tsx # Inspector properties panel showing GLTR token chips │ └── DatasetReport.tsx # Coefficients bar chart and failure case report ├── data/ │ ├── dataset.json # Processed admissions essay corpus (Human, AI, Polished, ESL) │ └── dataset_metadata.md # Calibration results, LOOCV accuracy, and fail analysis ├── scripts/ │ └── prepare_dataset.py # Features extractor and Logistic model fitting script └── run.py # Single-command unified bootstrapper and launcher
+ProseLens/ 
+├── backend/ 
+│ ├── main.py # FastAPI API routes & static hosting 
+│ ├── analyzer.py # GPT-2 token probability extractor 
+│ ├── classifier.py # Logistic boundary classifier & ESL safeguards 
+│ ├── test_analyzer.py # Backend unittest suite 
+│ ├── requirements.txt # Python dependency declarations 
+│ └── weights.json # Calibrated features weights 
+├── data/ 
+│ ├── dataset.json # Processed admissions essay corpus 
+│ └── dataset_metadata.md # LOOCV accuracy, limits & failure case reports 
+├── frontend/ 
+│ ├── package.json # Node module configurations 
+│ ├── vite.config.ts # Vite asset compiling setup 
+│ ├── tsconfig.json # TypeScript configuration 
+│ ├── index.html # HTML base and font setup 
+│ └── src/ 
+│ ├── main.tsx # React mounting script 
+│ ├── index.css # Stark carbon styling sheet 
+│ ├── App.tsx # Main view layout router 
+│ └── components/ 
+│ ├── EssayInput.tsx # Writing canvas textarea 
+│ ├── OverviewScore.tsx # Donut gauge and verdict panel 
+│ ├── TextVisualizer.tsx # Color-coded sentences renderer 
+│ ├── TokenDetails.tsx # GLTR chip inspector details panel 
+│ └── DatasetReport.tsx # Feature weights chart component 
+├── scripts/ 
+│ └── prepare_dataset.py # Calibration features extractor script 
+└── run.py # Single-command unified runner script
 
 
 
 ---
 
-## 🚀 Getting Started (How to Run)
+## Getting Started
 
 ### 1. Prerequisites
 Ensure you have the following installed on your machine:
@@ -56,21 +84,3 @@ ProseLens includes a unified bootstrapper script that automates installations an
 
 ```bash
 python run.py
-
-
-This script will automatically:
-
-Detect and install frontend Node dependencies (node_modules) if they are missing.
-Compile and bundle Vite assets for production (frontend/dist/).
-Check for classifier weights; if missing, it runs the calibration dataset pipeline (fits the Logistic Regression model and saves parameters).
-Launch the FastAPI server hosted on Uvicorn.
-3. Open in Browser
-Once the startup completes and shows Uvicorn running on http://127.0.0.1:8000, open your web browser to: 👉 http://localhost:8000
-
-🧪 Testing
-The statistical backend is fully covered by tests. Execute unit tests using Python's native test library:
-
-bash
-
-
-python -m unittest backend/test_analyzer.py
