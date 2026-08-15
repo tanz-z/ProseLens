@@ -38,35 +38,35 @@ ProseLens resolves this by checking grammatical pacing. When `top100_fraction > 
 
 ## 📁 Repository Structure
 
-ProseLens/ 
-├── backend/ 
-│ ├── main.py # FastAPI API routes & static hosting 
-│ ├── analyzer.py # GPT-2 token probability extractor 
-│ ├── classifier.py # Logistic boundary classifier & ESL safeguards 
-│ ├── test_analyzer.py # Backend unittest suite 
-│ ├── requirements.txt # Python dependency declarations 
-│ └── weights.json # Calibrated features weights 
-├── data/ 
-│ ├── dataset.json # Processed admissions essay corpus 
-│ └── dataset_metadata.md # LOOCV accuracy, limits & failure case reports 
-├── frontend/ 
-│ ├── package.json # Node module configurations 
-│ ├── vite.config.ts # Vite asset compiling setup 
-│ ├── tsconfig.json # TypeScript configuration 
-│ ├── index.html # HTML base and font setup 
-│ └── src/ 
-│ ├── main.tsx # React mounting script 
-│ ├── index.css # Stark carbon styling sheet 
-│ ├── App.tsx # Main view layout router 
-│ └── components/ 
-│ ├── EssayInput.tsx # Writing canvas textarea 
-│ ├── OverviewScore.tsx # Donut gauge and verdict panel 
-│ ├── TextVisualizer.tsx # Color-coded sentences renderer 
-│ ├── TokenDetails.tsx # GLTR chip inspector details panel 
-│ └── DatasetReport.tsx # Feature weights chart component 
-├── scripts/ 
-│ └── prepare_dataset.py # Calibration features extractor script 
-└── run.py # Single-command unified runner script
+ProseLens/   
+├── backend/    
+│ ├── main.py # FastAPI API routes & static hosting   
+│ ├── analyzer.py # GPT-2 token probability extractor    
+│ ├── classifier.py # Logistic boundary classifier & ESL safeguards    
+│ ├── test_analyzer.py # Backend unittest suite     
+│ ├── requirements.txt # Python dependency declarations      
+│ └── weights.json # Calibrated features weights    
+├── data/      
+│ ├── dataset.json # Processed admissions essay corpus    
+│ └── dataset_metadata.md # LOOCV accuracy, limits & failure case reports    
+├── frontend/     
+│ ├── package.json # Node module configurations     
+│ ├── vite.config.ts # Vite asset compiling setup     
+│ ├── tsconfig.json # TypeScript configuration     
+│ ├── index.html # HTML base and font setup     
+│ └── src/     
+│ ├── main.tsx # React mounting script    
+│ ├── index.css # Stark carbon styling sheet    
+│ ├── App.tsx # Main view layout router    
+│ └── components/    
+│ ├── EssayInput.tsx # Writing canvas textarea    
+│ ├── OverviewScore.tsx # Donut gauge and verdict panel     
+│ ├── TextVisualizer.tsx # Color-coded sentences renderer      
+│ ├── TokenDetails.tsx # GLTR chip inspector details panel     
+│ └── DatasetReport.tsx # Feature weights chart component     
+├── scripts/      
+│ └── prepare_dataset.py # Calibration features extractor script     
+└── run.py # Single-command unified runner script    
 
 
 
