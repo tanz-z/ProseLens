@@ -1,0 +1,382 @@
+[
+    {
+        "id": "h1",
+        "title": "Cooking and Culture",
+        "type": "human",
+        "label": 0,
+        "word_count": 184,
+        "features": {
+            "mean_perplexity": 62.6442462504988,
+            "burstiness": 77.16933816425937,
+            "top10_fraction": 0.6460176991150443,
+            "top100_fraction": 0.2345132743362832,
+            "lexical_diversity": 0.7065217391304348,
+            "std_sentence_length": 6.075337210577057,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.5796718354362058,
+        "error": 0.5796718354362058
+    },
+    {
+        "id": "h2",
+        "title": "Astronomy on a Budget",
+        "type": "human",
+        "label": 0,
+        "word_count": 187,
+        "features": {
+            "mean_perplexity": 41.21065574762821,
+            "burstiness": 46.13911991892106,
+            "top10_fraction": 0.6741071428571429,
+            "top100_fraction": 0.22321428571428573,
+            "lexical_diversity": 0.6417112299465241,
+            "std_sentence_length": 7.08590149522275,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.09964540261191149,
+        "error": 0.09964540261191149
+    },
+    {
+        "id": "h3",
+        "title": "The Cello's Voice",
+        "type": "human",
+        "label": 0,
+        "word_count": 183,
+        "features": {
+            "mean_perplexity": 36.206471828262394,
+            "burstiness": 24.178848563716546,
+            "top10_fraction": 0.6818181818181818,
+            "top100_fraction": 0.14545454545454545,
+            "lexical_diversity": 0.6502732240437158,
+            "std_sentence_length": 5.230769230769231,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.1655782907123633,
+        "error": 0.1655782907123633
+    },
+    {
+        "id": "h4",
+        "title": "Gardening with Grandma",
+        "type": "human",
+        "label": 0,
+        "word_count": 198,
+        "features": {
+            "mean_perplexity": 43.2360640286228,
+            "burstiness": 45.144779076494174,
+            "top10_fraction": 0.6571428571428571,
+            "top100_fraction": 0.22448979591836735,
+            "lexical_diversity": 0.6717171717171717,
+            "std_sentence_length": 6.477310827461929,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.2886829642145313,
+        "error": 0.2886829642145313
+    },
+    {
+        "id": "h5",
+        "title": "Public Speaking Struggle",
+        "type": "human",
+        "label": 0,
+        "word_count": 184,
+        "features": {
+            "mean_perplexity": 24.234013475501165,
+            "burstiness": 13.187298312502548,
+            "top10_fraction": 0.7429906542056075,
+            "top100_fraction": 0.17289719626168223,
+            "lexical_diversity": 0.657608695652174,
+            "std_sentence_length": 5.126794677831271,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.31423124499611654,
+        "error": 0.31423124499611654
+    },
+    {
+        "id": "h6",
+        "title": "The Community Center",
+        "type": "human",
+        "label": 0,
+        "word_count": 176,
+        "features": {
+            "mean_perplexity": 28.457645879476424,
+            "burstiness": 19.129461941977517,
+            "top10_fraction": 0.7109004739336493,
+            "top100_fraction": 0.18009478672985782,
+            "lexical_diversity": 0.6363636363636364,
+            "std_sentence_length": 4.199182788909594,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.17253236918860604,
+        "error": 0.17253236918860604
+    },
+    {
+        "id": "ai1",
+        "title": "Academic Excellence and Leadership",
+        "type": "ai",
+        "label": 1,
+        "word_count": 169,
+        "features": {
+            "mean_perplexity": 12.186528385541894,
+            "burstiness": 4.559727422102084,
+            "top10_fraction": 0.8082901554404145,
+            "top100_fraction": 0.16580310880829016,
+            "lexical_diversity": 0.6982248520710059,
+            "std_sentence_length": 3.5623026261113755,
+            "ai_keyword_density": 0.029585798816568046
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.9944923931157278,
+        "error": 0.005507606884272209
+    },
+    {
+        "id": "ai2",
+        "title": "Overcoming Obstacles in Swimming",
+        "type": "ai",
+        "label": 1,
+        "word_count": 167,
+        "features": {
+            "mean_perplexity": 15.071798077616302,
+            "burstiness": 4.545205501478005,
+            "top10_fraction": 0.7446808510638298,
+            "top100_fraction": 0.2074468085106383,
+            "lexical_diversity": 0.6526946107784432,
+            "std_sentence_length": 4.075536774462967,
+            "ai_keyword_density": 0.011976047904191617
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.7395933201852435,
+        "error": 0.2604066798147565
+    },
+    {
+        "id": "ai3",
+        "title": "Biology and Scientific Research",
+        "type": "ai",
+        "label": 1,
+        "word_count": 162,
+        "features": {
+            "mean_perplexity": 12.961794399607875,
+            "burstiness": 5.889442717478899,
+            "top10_fraction": 0.7925531914893617,
+            "top100_fraction": 0.14361702127659576,
+            "lexical_diversity": 0.6728395061728395,
+            "std_sentence_length": 3.2317865716108862,
+            "ai_keyword_density": 0.018518518518518517
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.9009455430208787,
+        "error": 0.0990544569791213
+    },
+    {
+        "id": "ai4",
+        "title": "The Power of Volunteerism",
+        "type": "ai",
+        "label": 1,
+        "word_count": 163,
+        "features": {
+            "mean_perplexity": 16.22222200359617,
+            "burstiness": 5.02848788665227,
+            "top10_fraction": 0.7741935483870968,
+            "top100_fraction": 0.15053763440860216,
+            "lexical_diversity": 0.6257668711656442,
+            "std_sentence_length": 3.6038388311615233,
+            "ai_keyword_density": 0.018404907975460124
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.46918739505986523,
+        "error": 0.5308126049401347
+    },
+    {
+        "id": "ai5",
+        "title": "Computer Science and Innovation",
+        "type": "ai",
+        "label": 1,
+        "word_count": 153,
+        "features": {
+            "mean_perplexity": 15.011748626482289,
+            "burstiness": 8.328853049185586,
+            "top10_fraction": 0.7426900584795322,
+            "top100_fraction": 0.21637426900584794,
+            "lexical_diversity": 0.7124183006535948,
+            "std_sentence_length": 4.496912521077347,
+            "ai_keyword_density": 0.013071895424836602
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.9693432971676381,
+        "error": 0.030656702832361882
+    },
+    {
+        "id": "ai6",
+        "title": "Global Economics and Society",
+        "type": "ai",
+        "label": 1,
+        "word_count": 149,
+        "features": {
+            "mean_perplexity": 20.012755998836617,
+            "burstiness": 8.236799131517948,
+            "top10_fraction": 0.7151515151515152,
+            "top100_fraction": 0.21818181818181817,
+            "lexical_diversity": 0.6845637583892618,
+            "std_sentence_length": 1.7275343701356567,
+            "ai_keyword_density": 0.026845637583892617
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.9947872010955272,
+        "error": 0.005212798904472793
+    },
+    {
+        "id": "p1",
+        "title": "Cooking and Culture (Polished)",
+        "type": "polished",
+        "label": 1,
+        "word_count": 160,
+        "features": {
+            "mean_perplexity": 39.64642103386539,
+            "burstiness": 27.11062034235967,
+            "top10_fraction": 0.6648648648648648,
+            "top100_fraction": 0.1891891891891892,
+            "lexical_diversity": 0.7,
+            "std_sentence_length": 4.3147750753216885,
+            "ai_keyword_density": 0.00625
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.7273261191457309,
+        "error": 0.27267388085426914
+    },
+    {
+        "id": "p2",
+        "title": "Astronomy on a Budget (Polished)",
+        "type": "polished",
+        "label": 1,
+        "word_count": 139,
+        "features": {
+            "mean_perplexity": 44.492722503968665,
+            "burstiness": 31.62883999977116,
+            "top10_fraction": 0.6204819277108434,
+            "top100_fraction": 0.19879518072289157,
+            "lexical_diversity": 0.7194244604316546,
+            "std_sentence_length": 2.9973947020704497,
+            "ai_keyword_density": 0.007194244604316547
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.8858546473801497,
+        "error": 0.11414535261985026
+    },
+    {
+        "id": "p3",
+        "title": "The Cello's Voice (Polished)",
+        "type": "polished",
+        "label": 1,
+        "word_count": 146,
+        "features": {
+            "mean_perplexity": 25.801526375077927,
+            "burstiness": 15.343981019331686,
+            "top10_fraction": 0.6941176470588235,
+            "top100_fraction": 0.21764705882352942,
+            "lexical_diversity": 0.684931506849315,
+            "std_sentence_length": 5.825590098865522,
+            "ai_keyword_density": 0.00684931506849315
+        },
+        "predicted_label": 1,
+        "ai_probability": 0.6925132941576244,
+        "error": 0.3074867058423756
+    },
+    {
+        "id": "p4",
+        "title": "Gardening with Grandma (Polished)",
+        "type": "polished",
+        "label": 1,
+        "word_count": 144,
+        "features": {
+            "mean_perplexity": 62.51491905053388,
+            "burstiness": 63.95273835759674,
+            "top10_fraction": 0.6319018404907976,
+            "top100_fraction": 0.25766871165644173,
+            "lexical_diversity": 0.7013888888888888,
+            "std_sentence_length": 6.442049363362563,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.10203963480803462,
+        "error": 0.8979603651919654
+    },
+    {
+        "id": "e1",
+        "title": "Coming to America",
+        "type": "esl",
+        "label": 0,
+        "word_count": 169,
+        "features": {
+            "mean_perplexity": 22.90399075789855,
+            "burstiness": 19.140274416130477,
+            "top10_fraction": 0.7584541062801933,
+            "top100_fraction": 0.18357487922705315,
+            "lexical_diversity": 0.6153846153846154,
+            "std_sentence_length": 3.8647494211970144,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.09660360590836654,
+        "error": 0.09660360590836654
+    },
+    {
+        "id": "e2",
+        "title": "My Family Business",
+        "type": "esl",
+        "label": 0,
+        "word_count": 168,
+        "features": {
+            "mean_perplexity": 20.56893094194408,
+            "burstiness": 8.874234159840988,
+            "top10_fraction": 0.7354497354497355,
+            "top100_fraction": 0.18518518518518517,
+            "lexical_diversity": 0.6428571428571429,
+            "std_sentence_length": 4.999408249006745,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.25592251160305585,
+        "error": 0.25592251160305585
+    },
+    {
+        "id": "e3",
+        "title": "Learning to Code",
+        "type": "esl",
+        "label": 0,
+        "word_count": 159,
+        "features": {
+            "mean_perplexity": 32.796371596980464,
+            "burstiness": 37.991820952558705,
+            "top10_fraction": 0.726775956284153,
+            "top100_fraction": 0.2185792349726776,
+            "lexical_diversity": 0.610062893081761,
+            "std_sentence_length": 5.606567020022146,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.05019517754329185,
+        "error": 0.05019517754329185
+    },
+    {
+        "id": "e4",
+        "title": "Adjusting to High School",
+        "type": "esl",
+        "label": 0,
+        "word_count": 150,
+        "features": {
+            "mean_perplexity": 39.74117256988463,
+            "burstiness": 41.22567561237376,
+            "top10_fraction": 0.6804733727810651,
+            "top100_fraction": 0.23668639053254437,
+            "lexical_diversity": 0.64,
+            "std_sentence_length": 2.913725436338734,
+            "ai_keyword_density": 0.0
+        },
+        "predicted_label": 0,
+        "ai_probability": 0.3932323865591725,
+        "error": 0.3932323865591725
+    }
+]
