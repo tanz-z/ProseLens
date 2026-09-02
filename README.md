@@ -20,8 +20,7 @@ The user interface implements a stark, modern **Obsidian & Carbon theme** (inspi
 
 ### 1. Vectorized Token Probability & Rank Extraction
 Instead of scanning text sequentially in slow loops, ProseLens tokenizes input text and passes it to `gpt2` in vectorized tensor operations:
-- **Ranks calculation**: Checks target token logprob against all vocabulary predictions:
-  \text{Ranks} = \sum (\text{logits}_{\text{shift}} > \text{logits}_{text{actual}})
+- **Ranks calculation**: Checks target token logprob against all vocabulary predictions
 - **GLTR Vocabulary Footprint**: Categorizes tokens into probability buckets (Top 10, Top 100, Top 1000, and low-frequency creative words). Machine-generated text contains almost zero words outside the Top 100.
 - **Arbitrary Length Support**: Input sequences are chunked into 1024-token segments to fit GPT-2 context windows, avoiding position embedding IndexError exceptions.
 
